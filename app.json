@@ -1,64 +1,64 @@
 {
-    "name": "Titan Music",
-    "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
+    "name": "T - Series Bot",
+    "description": "A Telegram Bot for playing music with a simple and user friendly interface & also with clean ui.",
     "logo": "https://telegra.ph/file/c4c411b7968c06b606395.jpg",
     "keywords": [
     "python3",
     "telegram",
     "bot",
-    "Aviax",
+    "T-Series",
     "MusicBot",
     "telegram-bot",
     "pyrogram"
     ],
     "env": {
       "API_ID": {
-        "description": "Get this value from https://my.telegram.org",
+        "description": "Enter the API ID.",
         "value": "19028663",
         "required": true
       },
       "API_HASH": {
-        "description": "Get this value from https://my.telegram.org",
+        "description": "Enter the Api Hash.",
         "value": "a9fa6b054131645b50e5758ccc841435",
         "required": true
       },
       "BOT_TOKEN": {
-        "description": "A Bot's token from Botfather",
+        "description": "Enter the bot token of Your Music Bot.",
         "value": "",
         "required": true
       },
       "MONGO_DB_URI": {
-        "description": "Get a mongodb url from https://cloud.mongodb.com.",
+        "description": "Enter Your Private MongoDB url.",
         "value": "mongodb+srv://T-Series:TSeries9199@t-series.wgf2iqg.mongodb.net/?retryWrites=true&w=majority",
         "required": true
       },
       "OWNER_ID": {
-        "description": "The user id of user whom you would like to add as OWNER.",
+        "description": "Enter the Userid of Owner.",
         "value": "1215104805",
         "required": true
       },
       "STRING_SESSION": {
-        "description": "A Pyrogram v2 String Session .",
+        "description": "Enter Your Pyrogyam V2 Session.",
         "value": "",
         "required": true
       },
       "QUEUE_LIMIT": {
-        "description": "Fill Queue Limit . Example - 15",
+        "description": "Enter the queue limit which your bot should have(like 15, 20, 25, 30 etc).",
         "value": "30",
         "required": false
       },
       "HEROKU_API_KEY": {
-        "description": "Your Heroku account's API key",
+        "description": "Enter Api Key of Your Heroku Acc.",
         "value": "",
         "required": false
       },
       "HEROKU_APP_NAME": {
-        "description": "Your heroku app name",
+        "description": "Enter Your Heroku app name( value should be in small alphabet).",
         "value": "",
         "required": false
       },
       "LOG_GROUP_ID": {
-        "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Do not ever try to put channel ID here.",
+        "description": "Enter Your Log Group id and don't forget to add bot in log group and promote it with full rights.",
         "value": "-1002124303816",
         "required": true
       }
