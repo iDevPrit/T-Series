@@ -24,3 +24,4 @@ ENV PYTHONUNBUFFERED=1 \
 
 # Start the bot (make sure you have a 'start' script or correct command)
 CMD ["bash", "start"]
+
