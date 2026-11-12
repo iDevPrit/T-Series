@@ -10,7 +10,7 @@ gitpython
 hachoir
 heroku3
 motor
-pillow==9.5.0
+pillow==13.0.0
 psutil
 py-tgcalls==2.2.5
 pykeyboard
